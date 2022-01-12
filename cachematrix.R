@@ -34,5 +34,5 @@ inv <- x$gInverse()
   mat <- x$get()
   inv <- solve(mat, ...)
   x$sInverse(inv)
-  inv #returning
+  inv #returning inverse
 }
